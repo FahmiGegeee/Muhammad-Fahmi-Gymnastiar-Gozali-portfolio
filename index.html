@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Fahmi G.G. — System Analyst & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- ░░ NAV ░░ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>Gegeee.<span class="logo-bracket">]</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Courses & Certifications</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ░░ MOBILE MENU ░░ -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Courses & Certifications</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ░░ HERO ░░ -->
+    <section id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-blob blob-1"></div>
+      <div class="hero-blob blob-2"></div>
+
+      <div class="hero-inner">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-name reveal delay-1">
+          <span class="name-first">Muhammad</span>
+          <span class="name-last">
+            <em>Fahmi</em>
+            <span class="name-accent">G.G.</span>
+          </span>
+        </h1>
+
+        <p class="hero-title reveal delay-2">
+          System Analyst
+          <span class="title-sep">×</span>
+          UI/UX Designer
+          <span class="title-sep">×</span>
+          Application Developer
+        </p>
+
+        <p class="hero-sub reveal delay-3">
+          Fresh graduate in Computer Engineering from Brawijaya University.<br/>
+          I bridge business requirements and technical execution, translating user needs into clear specs, clean APIs, and polished interfaces.
+        </p>
+
+        <div class="hero-ctas reveal delay-4">
+          <a href="#experience" class="btn-primary">View My Work</a>
+          <a href="mailto:fahmigymnastiar28@gmail.com" class="btn-ghost">Get in Touch</a>
+        </div>
+
+        <div class="hero-meta reveal delay-5">
+          <span><span class="mono">📍</span> Sidoarjo, East Java</span>
+          <span class="meta-sep">·</span>
+          <span><span class="mono">🎓</span> GPA 3.64 / 4.00</span>
+          <span class="meta-sep">·</span>
+          <span><span class="mono">💼</span> Open to work</span>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ░░ ABOUT ░░ -->
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-left">
+            <span class="section-tag">01 — About</span>
+            <h2 class="section-title">
+              Bridging the gap between<br/><em>business</em> & <em>technology</em>
+            </h2>
+          </div>
+          <div class="about-right">
+            <p class="about-text">
+              I'm a Computer Engineering Graduate who thrives at the intersection of requirement analysis, system design, and development. My experience spans internships at <strong>PT PAL Indonesia</strong> (System Analyst – HRIS) and <strong>Metrodata Academy</strong> (Application Developer), where I turned business problems into scalable technical solutions.
+            </p>
+            <p class="about-text">
+              Whether I'm drafting an SRS, designing API endpoints, building wireframes in Figma, or shipping a responsive web page. I bring an analytical mindset and attention to detail that ensures quality from spec to production.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-num">20+</span>
+                <span class="stat-label">APIs Built</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">40%</span>
+                <span class="stat-label">UX Engagement Boost</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">200+</span>
+                <span class="stat-label">SSO Users Served</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">3.64</span>
+                <span class="stat-label">GPA (Brawijaya)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ EXPERIENCE ░░ -->
+    <section id="experience">
+      <div class="container">
+        <span class="section-tag">02 — Experience</span>
+        <h2 class="section-title">Where I've <em>worked</em></h2>
+
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <div class="tl-marker">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-content">
+              <div class="tl-header">
+                <div>
+                  <h3 class="tl-role">System Analyst (HRIS)</h3>
+                  <p class="tl-company">PT PAL Indonesia (Persero) — MagangHub Batch 3</p>
+                </div>
+                <span class="tl-date">Dec 2025 – Present</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Gathered and analyzed business & user requirements, translating them into clear functional and technical specifications backed by SRS documentation.</li>
+                <li>Performed AS-IS & TO-BE business process analysis, UML modeling, and developed wireframes/mockups as solution references.</li>
+                <li>Coordinated end-to-end system development including integration, SIT/UAT, user training, and implementation with developers, vendors, and end users.</li>
+              </ul>
+              <div class="tl-tags">
+                <span>SRS</span><span>UML</span><span>Figma</span><span>HRIS</span><span>UAT</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="tl-marker">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-content">
+              <div class="tl-header">
+                <div>
+                  <h3 class="tl-role">Application Developer</h3>
+                  <p class="tl-company">Metrodata Academy – PT Sinergi Transformasi Digital — MSIB Batch 6</p>
+                </div>
+                <span class="tl-date">Feb – Jun 2024</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Built 12 APIs for an Overtime System, improving data management efficiency by <strong>30%</strong> and automating the approval workflow.</li>
+                <li>Developed 14 APIs and implemented Single Sign-On for Portal-Me, making authentication <strong>2× faster</strong> and securing 200+ users.</li>
+                <li>Redesigned the IT Camp web page in Figma, boosting user engagement by <strong>40%</strong> with a more responsive layout.</li>
+                <li>Collaborated using Agile (Scrum & Kanban) with business teams, UI/UX designers, and developers.</li>
+              </ul>
+              <div class="tl-tags">
+                <span>REST API</span><span>SSO</span><span>Figma</span><span>Agile</span><span>Scrum</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Education -->
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <h3>Brawijaya University</h3>
+            <p>Bachelor of Engineering — Computer Engineering</p>
+            <p class="edu-sub">Aug 2021 – Jan 2025 &nbsp;·&nbsp; GPA: 3.64 / 4.00</p>
+            <p class="edu-courses">Key Courses: OS · Algorithm Design · Web App Programming · HCI · Pattern Recognition · IT Industry Management</p>
+          </div>
+          <span class="edu-gpa">3.64</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ░░ SKILLS ░░ -->
+    <section id="skills">
+      <div class="container">
+        <span class="section-tag">03 — Skills</span>
+        <h2 class="section-title">What I bring to<br/><em>the table</em></h2>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-card-icon">⚙️</div>
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Software Testing & QA</li>
+              <li>SDLC & Digital Product</li>
+              <li>System Requirements Analysis</li>
+              <li>Technical Documentation (SRS)</li>
+              <li>UI/UX Design & Review</li>
+              <li>Web Dev (HTML, CSS, JS)</li>
+              <li>Data Analysis</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-icon">🛠️</div>
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>Postman · MySQL · Git/GitHub</li>
+              <li>Figma · Miro · Canva</li>
+              <li>Jira · Trello · Notion</li>
+              <li>VS Code</li>
+              <li>Microsoft Office</li>
+              <li>Google Workspace</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-icon">🤝</div>
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Analytical & Critical Thinking</li>
+              <li>Problem Solving</li>
+              <li>Detail Oriented</li>
+              <li>Communication & Teamwork</li>
+              <li>Leadership & Adaptability</li>
+              <li>Time Management</li>
+              <li>Fast Learner</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Tech bar section -->
+        <div class="tech-bar-section">
+          <h3 class="tech-bar-title">Proficiency Overview</h3>
+          <div class="tech-bars">
+            <div class="tech-bar-item">
+              <span>System Analysis & SRS</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:90%"></div></div>
+              <span class="bar-pct">Expert</span>
+            </div>
+            <div class="tech-bar-item">
+              <span>Figma / UI/UX Design</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:95%"></div></div>
+              <span class="bar-pct">Expert</span>
+            </div>
+            <div class="tech-bar-item">
+              <span>REST API Development</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:75%"></div></div>
+              <span class="bar-pct">Proficient</span>
+            </div>
+            <div class="tech-bar-item">
+              <span>HTML / CSS / JS</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:85%"></div></div>
+              <span class="bar-pct">Advanced</span>
+            </div>
+            <div class="tech-bar-item">
+              <span>Agile / Scrum</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:82%"></div></div>
+              <span class="bar-pct">Advanced</span>
+            </div>
+            <div class="tech-bar-item">
+              <span>Data Analysis</span>
+              <div class="bar-track"><div class="bar-fill" style="--w:70%"></div></div>
+              <span class="bar-pct">Proficient</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ CERTS / PROJECTS ░░ -->
+    <section id="projects">
+      <div class="container">
+        <span class="section-tag">04 — Certifications</span>
+        <h2 class="section-title">Continuous <em>learning</em></h2>
+
+        <div class="certs-grid">
+
+          <div class="cert-card">
+            <span class="cert-provider ibm">IBM</span>
+            <h4>UX Design Fundamental</h4>
+            <p>Aug 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider ibm">IBM</span>
+            <h4>Web Development Fundamental</h4>
+            <p>Aug 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider ibm">IBM</span>
+            <h4>Project Management Fundamental</h4>
+            <p>Jul 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider hackitv8">HackTiv8 × IBM</span>
+            <h4>Data Classification & Summarization Using IBM Granite</h4>
+            <p>Jun 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider hackitv8">HackTiv8 × IBM</span>
+            <h4>Code Generation & Optimization Using IBM Granite</h4>
+            <p>Jun 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider dibimbing">Dibimbing</span>
+            <h4>UI/UX Design (DSF 36)</h4>
+            <p>Feb 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider other">Dicoding</span>
+            <h4>Belajar Dasar Manajemen Proyek</h4>
+            <p>Nov 2025</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider other">RevoU</span>
+            <h4>Fundamental Course Software Engineering</h4>
+            <p>Nov – Dec 2023</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider other">Gamelab.ID</span>
+            <h4>Menguasai Figma untuk Karier Profesional UI/UX</h4>
+            <p>Jul 2024</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider myskill">MySkill</span>
+            <h4>Graphic Design</h4>
+            <p>Dec 2023</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider myskill">MySkill</span>
+            <h4>Frontend Development</h4>
+            <p>Nov 2023</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-provider myskill">MySkill</span>
+            <h4>Wireframing in UI/UX Design</h4>
+            <p>Nov 2023</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ CONTACT ░░ -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-inner">
+          <span class="section-tag light">05 — Contact</span>
+          <h2 class="contact-heading">
+            Let's build something<br/><em>great together</em>
+          </h2>
+          <p class="contact-sub">
+            I'm open to full-time roles, internships, and freelance projects.<br/>
+            Whether you need a system analyst, fe eveloper, or UI/UX designer.<br/> 
+            let's talk!!.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:fahmigymnastiar28@gmail.com" class="contact-btn">
+              <span class="contact-icon">✉️</span>
+              fahmigymnastiar28@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/mfahmigymnastiarg" target="_blank" rel="noopener" class="contact-btn">
+              <span class="contact-icon">🔗</span>
+              LinkedIn
+            </a>
+            <a href="https://wa.me/6287851803472" target="_blank" rel="noopener" class="contact-btn">
+              <span class="contact-icon">📞</span>
+              WhatsApp
+            </a>
+          </div>
+          <p class="contact-location">📍 Sidoarjo Regency, East Java, 61263</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo"><span class="logo-bracket">[</span>Gegeee.<span class="logo-bracket">]</span></span>
+      <span class="footer-copy">© 2025 Muhammad Fahmi G.G. Built with semantic HTML5 + mobile-first CSS.</span>
+      <a href="#hero" class="footer-top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    // ── Custom Cursor ──
+    const cursor = document.getElementById('cursor');
+    const trail = document.getElementById('cursorTrail');
+    let mx = 0, my = 0, tx = 0, ty = 0;
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.transform = `translate(${mx}px,${my}px)`;
+    });
+    function animateTrail() {
+      tx += (mx - tx) * 0.12;
+      ty += (my - ty) * 0.12;
+      trail.style.transform = `translate(${tx}px,${ty}px)`;
+      requestAnimationFrame(animateTrail);
+    }
+    animateTrail();
+
+    document.querySelectorAll('a,button').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('cursor-hover'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('cursor-hover'));
+    });
+
+    // ── Navbar scroll ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── Hamburger ──
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    });
+    document.querySelectorAll('.mob-link').forEach(l => {
+      l.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // ── Scroll reveal ──
+    const revealEls = document.querySelectorAll('.reveal, .timeline-item, .skill-card, .cert-card, .stat, .tech-bar-item');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+
+    // ── Animate bars on scroll ──
+    const barFills = document.querySelectorAll('.bar-fill');
+    const barObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.width = e.target.style.getPropertyValue('--w');
+          barObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    barFills.forEach(b => { b.style.width = '0'; barObserver.observe(b); });
+
+    // ── Active nav link ──
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) cur = s.id; });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+      });
+    });
+  </script>
+</body>
+</html>
